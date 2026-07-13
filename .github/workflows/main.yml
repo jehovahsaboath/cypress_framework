@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-24.04
     strategy:
       fail-fast: false 
-      matrix: chrome firefox edge
+      matrix: [chrome firefox edge]
        
     steps:
       - name: Checkout
